@@ -1,0 +1,117 @@
+.ticket-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  /* align-items: center; */
+  width: 370px;
+  height: 100px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 13px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ticketHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticketHeading span {
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+}
+
+.ticketHeading img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ticketTitle {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.ticketTitle > img {
+  height: 17px;
+  width: 17px;
+  margin-right: 7px;
+}
+.ticketInfo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  /* justify-content: ; */
+  color: grey;
+}
+
+.ticketInfo > img {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(235, 235, 235);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.ticketInfo .tag {
+  font-size: 14px;
+  font-weight: 600;
+  /* margin-left: 1px; */
+  padding: 0px 4px;
+}
+
+.ticketInfo > span {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+.tag-wrapper{
+  display: flex;
+}
+.ticket-card {
+  position: relative;
+}
+
+.ticketHeading {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ticketHeading img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.availability-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 2px solid white;
+}
+
+.available {
+  background-color: green;
+}
+
+.unavailable {
+  background-color: rgb(213, 213, 213);
+}

@@ -1,0 +1,92 @@
+.navbar {
+  padding: 15px 32px;
+  /* background-color: #f0f0f0; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.display-card {
+  height: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+  /* background-color: #f0f0f0; */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  /* width: 150px; */
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.display-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.display-card span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown {
+  padding: 10px;
+  padding-right: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 52px;
+  top: 46px;
+  z-index: 1000;
+  /* margin-top: 10px; */
+  width: 250px;
+}
+
+.dropdown > div {
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  justify-content: space-between;
+}
+.dropdown > div > span {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* 
+.dropdown strong {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+} */
+
+.ticket-container {
+  padding: 20px;
+  overflow-x: auto;
+  height: 87vh;
+  background-color: #f0f0f0;
+}
+
+.group-dropdown {
+  width: 110px;
+  padding: 3px 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.sort-dropdown {
+  width: 110px;
+  padding: 2px 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
